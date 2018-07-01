@@ -22,3 +22,12 @@ default is 3788
 1 general debug, 2-3 com to socket debug, 4-6 server socket debug
 -h --help print this help and exit
 -V --version print version information and exit
+
+
+
+http://forum.velleman.eu/viewtopic.php?f=26&t=8488#p32619
+
+Download the source @ http://leachy.homeip.net/velbus/velserv.c 
+and compile with gcc -o velserv velserv.c -lpthread
+
+more info about the usage can be found with ./velserv -h (like for ex a more verbose output: ./velserv -v -v -v -v -v , if you put more or less "-v", you'll get another verbose output)
